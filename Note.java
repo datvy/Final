@@ -21,6 +21,12 @@ public class Note extends Actor {
         246,
         337
     };
+    private final String[] soundKey = {
+        "C.mp3",
+        "E.mp3",
+        "G.mp3",
+        "C2.mp3"
+    };
     private int timer;
     private int cheatTimer;
     //constructor
@@ -107,6 +113,8 @@ public class Note extends Actor {
 
         if (hitNote()) {
 
+            Greenfoot.playSound(soundKey[row]);
+            
             this.getWorld().removeObject(this);
 
             this.setRow((int) Math.random() * 3);
