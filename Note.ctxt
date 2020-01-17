@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Note
+comment1.params=row\ isHit\ scrollSpeed\ inUse
+comment1.target=Note(int,\ boolean,\ int,\ boolean)
+comment10.params=
+comment10.target=boolean\ checkCheat()
+comment11.params=
+comment11.target=boolean\ hitNote()
+comment12.params=
+comment12.target=void\ act()
+comment2.params=
+comment2.target=int\ getRow()
+comment3.params=
+comment3.target=int\ getScrollSpeed()
+comment4.params=
+comment4.target=boolean\ getInUse()
+comment5.params=thisRow
+comment5.target=void\ setRow(int)
+comment6.params=thisScrollSpeed
+comment6.target=void\ setScrollSpeed(int)
+comment7.params=thisInUse
+comment7.target=void\ setInUse(boolean)
+comment8.params=
+comment8.target=void\ move()
+comment9.params=
+comment9.target=void\ incrementSpeed()
+numComments=13
